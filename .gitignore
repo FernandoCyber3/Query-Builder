@@ -1,0 +1,9 @@
+# Banco de dados SQLite
+*.db
+*.db-journal
+*.db-shm
+*.db-wal
+
+# Arquivos de log/texto temporários
+*.txt
+node_modules/
