@@ -1,6 +1,6 @@
 # 🏗️ Projeto: Query Builder com Knex.js & Node.js
 
-Este projeto demonstra a implementação de um **Query Builder** utilizando **Knex.js**. A ferramenta permite a construção de consultas SQL complexas através de métodos JavaScript, garantindo maior segurança contra *SQL Injection*, produtividade e portabilidade entre diferentes bancos de dados.
+Este projeto demonstra a implementação de um **Query Builder** utilizando **Knex.js**, **Beekeeper Studio**, e **Insomnia**. A ferramenta permite a construção de consultas SQL complexas através de métodos JavaScript, garantindo maior segurança contra *SQL Injection*, produtividade e portabilidade entre diferentes bancos de dados.
 
 ## 🛠️ Tecnologias e Ferramentas
 *   **Runtime:** Node.js
@@ -63,17 +63,3 @@ A complexidade do projeto aumenta com a gestão de dados relacionados:
 
 ---
 
-## 🚀 Como Executar o Projeto
-
-1. Instale as dependências:
-   ```bash
-   npm install
-Execute as migrations para criar o banco:
-
-Bash
-npx knex migrate:latest
-(Opcional) Popule o banco com dados de teste:
-
-Bash
-npx knex seed:run
-Teste as rotas através do Insomnia (importando o workspace disponível na pasta docs/).
